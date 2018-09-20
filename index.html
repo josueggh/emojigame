@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Emoji GAME</title>
+  <meta name="description" content="The Emoji GAME">
+  <meta name="author" content="Josue G">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <div id="no-webcam">
+    No webcam found. <br/>
+    To use this demo, use a device with a webcam.
+  </div>
+
+  <div class="webcam-box-outer">
+    <div class="webcam-box-inner">
+      <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    </div>
+  </div>
+
+  <div>
+    🤭
+    <p>
+      <span id="shame-total">0</span> examples
+    </p>
+    <button class="record_button" id="shame"> Add sample</button>
+  </div>
+
+  <div id="status">Loading models...</div>
+  <script src="src/main.js"></script>
+
+</body>
+</html>

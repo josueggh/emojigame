@@ -1,0 +1,18 @@
+body{
+    background: #1e365f;
+}
+
+#no-webcam {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+    line-height: 30px;
+}
+#status {
+    color: #f8f8f8;
+    font-weight: 300;
+    margin: 12px 0;
+    text-align: center;
+}
