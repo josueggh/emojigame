@@ -23,11 +23,40 @@
 
   <div>
     🤭
+    <canvas class="thumb" width=224 height=224 id="shame-thumb"></canvas>
     <p>
       <span id="shame-total">0</span> examples
     </p>
     <button class="record_button" id="shame"> Add sample</button>
   </div>
+
+
+  <div>
+    🙈
+    <canvas class="thumb" width=224 height=224 id="monkey-thumb"></canvas>
+    <p>
+      <span id="monkey-total">0</span> examples
+    </p>
+    <button class="record_button" id="monkey"> Add sample</button>
+  </div>
+
+
+  <div>
+    🙂
+    <canvas class="thumb" width=224 height=224 id="smile-thumb"></canvas>
+    <p>
+      <span id="smile-total">0</span> examples
+    </p>
+    <button class="record_button" id="smile"> Add sample</button>
+  </div>
+
+  <button id="train">
+    <span id="train-status">TRAIN MODEL</span>
+  </button>
+
+  <button id="predict">
+    <span>PLAY</span>
+  </button>
 
   <div id="status">Loading models...</div>
   <script src="src/main.js"></script>
